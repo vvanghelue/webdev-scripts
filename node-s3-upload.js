@@ -6,7 +6,7 @@ const {
   S3Client
 } = require("@aws-sdk/client-s3")
 
-const BUCKET_NAME = "my-bucketé
+const BUCKET_NAME = "my-bucket"
 const BUCKET_REGION = "eu-west-3"
 
 const client = new S3Client({
