@@ -30,7 +30,7 @@ export function router({ routes, onMatch, onNotFound, onChange }) {
         return;
       }
     }
-    onNotFound();
+    onNotFound && onNotFound();
   }
 
   // router is a singleton
